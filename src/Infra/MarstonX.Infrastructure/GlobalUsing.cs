@@ -1,0 +1,13 @@
+﻿global using Serilog;
+global using Microsoft.ApplicationInsights.Extensibility;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.DependencyInjection;
+global using Serilog.Events;
+global using Serilog.Sinks.ApplicationInsights.TelemetryConverters;
+global using Polly;
+global using System.Security.Claims;
+global using System.Security.Principal;
+global using MarstonX.Domain.Common;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
